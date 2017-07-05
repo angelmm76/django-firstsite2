@@ -1,0 +1,1309 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"forms"
+			],
+			[
+				"passw",
+				"password2"
+			],
+			[
+				"clea",
+				"cleaned_data"
+			],
+			[
+				"temp",
+				"template_name"
+			],
+			[
+				"ques",
+				"question"
+			],
+			[
+				"que",
+				"question_id"
+			],
+			[
+				"get_",
+				"get_object_or_404"
+			],
+			[
+				"qu",
+				"question_id"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"blogpo",
+				"blogpost_content"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"border-bottom-",
+				"border-bottom-width"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"po",
+				"POST"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"blo",
+				"blogpost_content"
+			],
+			[
+				"blog",
+				"blogpost_title"
+			],
+			[
+				"aut",
+				"author"
+			],
+			[
+				"get",
+				"get_username"
+			],
+			[
+				"BlogP",
+				"BlogPostPlus"
+			],
+			[
+				"up",
+				"upload_url"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"sa",
+				"save"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"HttpR",
+				"HttpResponseRedirect"
+			],
+			[
+				"url",
+				"urls"
+			],
+			[
+				"im",
+				"im_url"
+			],
+			[
+				"w",
+				"was_published_recently"
+			],
+			[
+				"C",
+				"ChoiceInline"
+			],
+			[
+				"Q",
+				"QuestionAdmin"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"p",
+				"pub_date"
+			],
+			[
+				"c",
+				"choice_text"
+			],
+			[
+				"q",
+				"question_text"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"cr",
+				"created"
+			],
+			[
+				"wikipa",
+				"wikipage"
+			],
+			[
+				"wp",
+				"wp"
+			],
+			[
+				"wr",
+				"write"
+			],
+			[
+				"wiki",
+				"wikipages"
+			],
+			[
+				"art",
+				"art-body"
+			],
+			[
+				"ar",
+				"art-title"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"te",
+				"textarea"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"to",
+				"toFixed"
+			],
+			[
+				"info",
+				"infoWindow"
+			],
+			[
+				"on",
+				"onlinesCourses"
+			],
+			[
+				"formattedTitle",
+				"formattedTitle"
+			],
+			[
+				"projec",
+				"project"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"dat",
+				"dates"
+			],
+			[
+				"em",
+				"employer"
+			],
+			[
+				"make",
+				"makeCourse"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "firstsite183/urls.py",
+			"settings":
+			{
+				"buffer_size": 1359,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "firstsite183/settings.py",
+			"settings":
+			{
+				"buffer_size": 3717,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "firstsite183mod.json",
+			"settings":
+			{
+				"buffer_size": 21444,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "polls183/admin.py",
+			"settings":
+			{
+				"buffer_size": 582,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polls183/apps.py",
+			"settings":
+			{
+				"buffer_size": 91,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polls183/models.py",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "polls183/urls.py",
+			"settings":
+			{
+				"buffer_size": 380,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "polls183/views.py",
+			"settings":
+			{
+				"buffer_size": 1779,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog183/admin.py",
+			"settings":
+			{
+				"buffer_size": 160,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog183/apps.py",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog183/models.py",
+			"settings":
+			{
+				"buffer_size": 1622,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog183/forms.py",
+			"settings":
+			{
+				"buffer_size": 1111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog183/urls.py",
+			"settings":
+			{
+				"buffer_size": 1566,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blog183/views.py",
+			"settings":
+			{
+				"buffer_size": 10785,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog183/templates/blog/index.html",
+			"settings":
+			{
+				"buffer_size": 1791,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blog183/templates/blog/archive.html",
+			"settings":
+			{
+				"buffer_size": 923,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blog183/templates/blog/archive_detail.html",
+			"settings":
+			{
+				"buffer_size": 1427,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blog183/static/blog/css/style.css",
+			"settings":
+			{
+				"buffer_size": 4990,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog183/templates/blog/detail.html",
+			"settings":
+			{
+				"buffer_size": 1077,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 35.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Angel MM/Django/firstsite183/firstsite183.json",
+		"/C/Users/Angel MM/Django/firstsite183/blog183/templates/blog/detail.html",
+		"/C/Users/Angel MM/Django/firstsite183/firstsite183/views.py",
+		"/C/Users/Angel MM/Django/firstsite183/templates/firstsite/index-bootstrap.html",
+		"/C/Users/Angel MM/Django/firstsite183/templates/admin/base_site.html",
+		"/C/Users/Angel MM/Django/firstsite183/blog183/templates/base.html",
+		"/C/Users/Angel MM/Django/firstsite183/templates/firstsite/index.html",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 2/bootstrap-portfolio.html",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity Javascript UD804/index.html",
+		"/C/Users/Angel MM/Django/firstsite183/templates/firstsite/css/styles.css",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 3/portfolio-bootstrap-3.html",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 3/css/styles.css",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 3/js/bootstrap.js",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 3/js/bootstrap.min.js",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 3/js/jquery-1.11.3.min.js",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 3/config.json",
+		"/C/Users/Angel MM/Django/firstsite183/polls183/urls.py",
+		"/C/Users/Angel MM/Django/firstsite183/polls183/views.py",
+		"/C/Users/Angel MM/Django/firstsite183/polls183/tests.py",
+		"/C/Users/Angel MM/Django/firstsite183/firstsite183/urls.py",
+		"/C/Users/Angel MM/Django/firstsite183/polls183/apps.py",
+		"/C/Users/Angel MM/Django/firstsite183/polls183/admin.py",
+		"/C/Users/Angel MM/Django/mysite173/polls173/views.py",
+		"/C/Users/Angel MM/Django/mysite173/mysite173/urls.py",
+		"/C/Users/Angel MM/Django/mysite173/polls173/templates/polls173/index.html",
+		"/C/Users/Angel MM/Django/mysite173/polls173/apps.py",
+		"/C/Users/Angel MM/Django/mysite173/manage.py",
+		"/C/Users/Angel MM/Django/mysite173/polls173/migrations/0001_initial.py",
+		"/C/Users/Angel MM/Django/mysite173/mysite187python3.sublime-project",
+		"/C/Users/Angel MM/Django/mysite-17-3/news/models.py",
+		"/C/Users/Angel MM/google_appengine/udacity-cs253-angelmm/unit1/main.py",
+		"/C/Users/Angel MM/google_appengine/udacity-cs253-angelmm/app.yaml",
+		"/C/Users/Angel MM/google_appengine/udacity-cs253-angelmm/main.py",
+		"/C/Users/Angel MM/google_appengine/udacity-cs253-angelmm/index.yaml",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/HTML CSS for Beginners/08 Box Model.htm",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/HTML CSS for Beginners/09 CSS Navigation Bar.htm",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/HTML CSS for Beginners/02 External CSS.htm",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/HTML CSS for Beginners/01 Metatags.htm",
+		"/C/Users/Angel MM/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Angel MM/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Angel MM/AppData/Roaming/Sublime Text 2/Packages/Python/Python.sublime-build",
+		"/C/Users/Angel MM/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/C/Users/Angel MM/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Angel MM/Django/heroku-python-getting-started/gettingstarted/urls.py",
+		"/C/Users/Angel MM/python-getting-started/gettingstarted/settings.py",
+		"/C/Users/Angel MM/Django/firstsite/firstsite/wsgi.py",
+		"/C/Users/Angel MM/Django/hellodjangoheroku/hellodjangoheroku/wsgi.py",
+		"/C/Users/Angel MM/Django/hellodjangoheroku/hellodjangoheroku/settings.py",
+		"/C/Users/Angel MM/python-getting-started/hello/admin.py",
+		"/C/Users/Angel MM/python-getting-started/hello/views.py",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 2/css/styles.css",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 2/config.json",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 2/css/bootstrap.css",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 2/css/bootstrap-theme.css",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio/bootstrap-prestructure.html",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio/css/bootstrap.css",
+		"/C/Users/Angel MM/Django/firstsite/blog/urls.py",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio/js/bootstrap.js",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio/css/style.css",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio/css/bootstrap-theme.css",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio/portfolio.html",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/framework/portfolio.html",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/framework/css/main.css",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/edit0.html",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/toplist/style.css",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/framework/test.html",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/framework/framework/framework/css/main.css",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/framework/framework/framework/test.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/forms.py",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/about.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/static/blog/css/style.css",
+		"/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/toplist/index.html",
+		"/C/Users/Angel MM/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Angel MM/google_appengine/angelmm/static/css/style.css",
+		"/C/Users/Angel MM/google_appengine/angelmm/static/css/main.css",
+		"/C/Users/Angel MM/google_appengine/angelmm/static/index.html",
+		"/C/Users/Angel MM/google_appengine/angelmm/templates/blogcontact.html",
+		"/C/Users/Angel MM/google_appengine/angelmm/templates/blogsignup.html",
+		"/C/Users/Angel MM/google_appengine/angelmm/templates/blogbase.html",
+		"/C/Users/Angel MM/google_appengine/angelmm/templates/bloglogin.html",
+		"/C/Users/Angel MM/google_appengine/angelmm/templates/blogpost.html",
+		"/C/Users/Angel MM/google_appengine/angelmm/templates/blogperma.html",
+		"/C/Users/Angel MM/google_appengine/angelmm/templates/blogfront.html",
+		"/C/Users/Angel MM/google_appengine/angelmm/testno.py",
+		"/C/Users/Angel MM/google_appengine/angelmm/templates/blogcomment.html",
+		"/C/Users/Angel MM/google_appengine/angelmm/blogplus.py",
+		"/C/Users/Angel MM/google_appengine/angelmm/app.yaml",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/contact.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/comment.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/base.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/detail.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/index.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/newpost.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/login-view.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/signup.html",
+		"/C/Users/Angel MM/Django/firstsite/polls/views.py",
+		"/C/Users/Angel MM/Django/firstsite/blog/views.py",
+		"/C/Users/Angel MM/Django/firstsite/polls/urls.py",
+		"/C/Users/Angel MM/Django/firstsite/firstsite/views.py",
+		"/C/Users/Angel MM/Django/firstsite/firstsite/urls.py",
+		"/C/Users/Angel MM/Django/firstsite/blog/models.py",
+		"/C/Users/Angel MM/Django/firstsite/firstsite/settings.py",
+		"/C/Users/Angel MM/Django/firstsite/blog/admin.py",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/registration/login.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/archive.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/login-b.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/login.html",
+		"/C/Users/Angel MM/Django/mysite/polls_RE/urls.py",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/blog/base.html",
+		"/C/Users/Angel MM/Django/firstsite/blog/templates/registration/login0.html",
+		"/C/Users/Angel MM/workspace/Advanced Downloaded Image Viewer (P1 - Assignment 3)/index.html",
+		"/C/Users/Angel MM/Django/mysite/mysite/urls.py",
+		"/C/Users/Angel MM/Django/mysite/polls_RE/models.py",
+		"/C/Users/Angel MM/Django/firstsite/templates/admin/base_site.html",
+		"/C/Users/Angel MM/Django/firstsite/templates/admin/index.html",
+		"/C/Users/Angel MM/Django/mysite/mysite/settings.py",
+		"/C/Users/Angel MM/Django/firstsite/polls/admin.py",
+		"/C/Users/Angel MM/Django/firstsite/manage.py",
+		"/C/Users/Angel MM/Django/firstsite/blog/migrations/0001_initial.py",
+		"/C/Users/Angel MM/Django/django-polls/setup.py",
+		"/C/Users/Angel MM/Django/mysite/polls/admin.py",
+		"/C/Users/Angel MM/Django/mysite/polls/models.py",
+		"/C/Users/Angel MM/Django/mysite/polls/static/polls/style.css",
+		"/C/Users/Angel MM/Django/mysite/polls/templates/polls/index.html",
+		"/C/Users/Angel MM/Django/mysite/polls/urls.py",
+		"/C/Users/Angel MM/Django/mysite/polls/templates/polls/detail.html",
+		"/C/Users/Angel MM/Django/mysite/polls/templates/polls/results.html",
+		"/C/Users/Angel MM/Django/mysite/polls/views.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"super(",
+			"contenttype",
+			"django.content",
+			"django.contenttyp",
+			"contenttyp",
+			"content",
+			"djangocontentt",
+			"django_content_t",
+			"exists",
+			"exis",
+			"Foreign",
+			"USER_RE",
+			"user_re",
+			"24",
+			"from",
+			"patterns",
+			"config",
+			"0",
+			"python",
+			" \n",
+			"\">\n",
+			"dropd",
+			"drop",
+			">\n",
+			"\n",
+			"img",
+			"conte",
+			"tag",
+			"paginat",
+			"foo",
+			"flex",
+			"ESCA",
+			"escap",
+			"get_serv",
+			"upload",
+			"create",
+			"get_serv",
+			"perma_po",
+			"latest",
+			"saveblo",
+			"created",
+			"author",
+			"author2",
+			"top",
+			"user",
+			"author",
+			"blobstore",
+			"<",
+			"blob",
+			"image",
+			"get_by",
+			"UserPlus",
+			"userplus",
+			"BlogPost",
+			"User",
+			"BlogPost",
+			"favi",
+			"valid_u",
+			"top",
+			"perma",
+			"version",
+			"key",
+			"headers",
+			"header",
+			"index",
+			"request",
+			"front",
+			"welcom",
+			"WikiContent",
+			"str",
+			"top",
+			"query",
+			"key",
+			"edit",
+			"<",
+			"edit",
+			"wikipage",
+			"get_",
+			"quer",
+			"wiki",
+			"perma",
+			"top",
+			"blogp",
+			"lint",
+			"py",
+			">\n",
+			"<!",
+			"base",
+			"scale",
+			"this.scale",
+			"roid",
+			"white",
+			"initia",
+			"map",
+			"leng",
+			"inline",
+			"flex-",
+			"cont",
+			"let",
+			"contac",
+			"data",
+			"creat",
+			"helper",
+			"initia",
+			"flex",
+			"connect",
+			"work",
+			"entry",
+			"class",
+			"/*!",
+			"append"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"user",
+			"UserPlus",
+			"BlogPostPlus",
+			"WikiItem"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "firstsite183/urls.py",
+					"settings":
+					{
+						"buffer_size": 1359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1208,
+								1208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "firstsite183/settings.py",
+					"settings":
+					{
+						"buffer_size": 3717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2562,
+								2562
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "firstsite183mod.json",
+					"settings":
+					{
+						"buffer_size": 21444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								990,
+								990
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "polls183/admin.py",
+					"settings":
+					{
+						"buffer_size": 582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								553,
+								509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "polls183/apps.py",
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "polls183/models.py",
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "polls183/urls.py",
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "polls183/views.py",
+					"settings":
+					{
+						"buffer_size": 1779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "blog183/admin.py",
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "blog183/apps.py",
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "blog183/models.py",
+					"settings":
+					{
+						"buffer_size": 1622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								808,
+								808
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "blog183/forms.py",
+					"settings":
+					{
+						"buffer_size": 1111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1058,
+								1103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "blog183/urls.py",
+					"settings":
+					{
+						"buffer_size": 1566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								812,
+								812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "blog183/views.py",
+					"settings":
+					{
+						"buffer_size": 10785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2747,
+								2753
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2133.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "blog183/templates/blog/index.html",
+					"settings":
+					{
+						"buffer_size": 1791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1650,
+								1650
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "blog183/templates/blog/archive.html",
+					"settings":
+					{
+						"buffer_size": 923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "blog183/templates/blog/archive_detail.html",
+					"settings":
+					{
+						"buffer_size": 1427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "blog183/static/blog/css/style.css",
+					"settings":
+					{
+						"buffer_size": 4990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1573,
+								1573
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1514.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "blog183/templates/blog/detail.html",
+					"settings":
+					{
+						"buffer_size": 1077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 77.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Angel MM/Django/heroku-python-getting-started/angelmm-heroku.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true
+}

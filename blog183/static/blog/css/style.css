@@ -1,0 +1,390 @@
+* {
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  position:relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.clearfix {
+  overflow: auto;
+}
+
+.education-entry, .work-entry, .project-entry {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1 {
+  font-size: 40px;
+  color: #F5A623;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #999999;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000000;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 17px;
+}
+
+img {
+    object-fit: cover;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.postlist-flexbox {
+  margin-top: 15px;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.postlist {
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.post {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  position: relative;
+}
+
+.post-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #444444;
+  line-height: 29px;
+  text-decoration: none;
+}
+
+.post-title:visited {
+  color: #444444;
+}
+
+.post-content {
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.post-tag {
+  color: #999999;
+  font-size: 14px;
+  padding-bottom: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.archive-post {
+  width: 100%;
+  margin-bottom: 7px;
+  display: flex;
+  position: relative;
+}
+
+.archive-post-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #444444;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.login-area {
+    font-size: 16px;
+    color: gray;
+    background-color: #eeeeee;
+    padding: 15px;
+    margin-top: 5px;
+/*    position: absolute;
+    top: 10px;
+    right: 10px;*/
+}
+
+.login-link {
+    color: gray;
+    text-decoration: none;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.footer {
+  padding-top: 5%;
+  margin-top: 20px;
+}
+
+.footer-link {
+    color: #998856;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-link:visited {
+    color: 998856;
+}
+
+.footer-flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 25px;
+    background-color: #cccccc;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: right;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: bold;
+  font-
+  color: green;
+  padding: 5px;
+  border-width: 1px;
+  border-color: #aaaaaa;
+  border-bottom-style: solid;
+  border-top-style: solid;
+}
+
+.right-column {
+  width:20%;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #F3F3F3;
+  line-height: 28px;
+}
+
+#skillsH3 {
+  color: #F5AE23;
+  display: none;
+}
+
+.orange {
+  background-color: #F5AE53;
+}
+
+.orange-text {
+  color: #F5AE53;
+}
+
+.white-text {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.gray {
+  background-color: #F3F3F3;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+.dark-gray {
+  background-color: #4A4A4A;
+}
+
+/* TODO: Replace with image later */
+#header {
+  background-color: #484848;
+}
+
+.center-content {
+  padding-top: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2.5%
+}
+
+ul {
+  list-style-type: none;
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Bar chart stuff */
+.chart div {
+  font: 10px sans-serif;
+  background-color: #4A4A4A;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  height: 12px;
+  color: white;
+  display: inline-block;
+}
+
+span {
+  padding: 5px;
+}
+
+#letsConnect {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  .biopic {
+    display: block;
+  }
+
+}
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}

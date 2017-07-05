@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if post_list %}
+    <div class="postlist">
+    {% for post in post_list %}
+        <div class="post">
+            <div class="col-4">
+                {% if post.image %}
+                    <img src="{{post.image.url}}" width="225px" height="150px">
+                {% else %}
+                    <img src="http://placehold.it/225x150">
+                {% endif %}
+            </div>
+            <div class="col-8">
+                <a class="post-title" href="{% url 'blog:detail' post.id %}">{{ post.blogpost_title }}</a>
+                <div class="post-content">
+                    {{ post.blogpost_content|truncatewords:60 }}
+                </div>
+
+                <div class="post-tag">
+                    Posted by {{ post.author }} on {{ post.pub_date|date:"d M Y, H:i" }} 
+                </div>
+            </div>
+        </div>
+
+    {% endfor %}
+    </div>
+    
+{% else %}
+    <p>No posts are available.</p>
+{% endif %}
+
+{% if is_paginated %}
+    <div class="pagination">
+        <span class="page-links">
+            {% if page_obj.has_previous %}
+                <a href="{% url 'blog:page' page_obj.previous_page_number %}">previous</a>
+            {% endif %}
+            <span class="page-current">
+                page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+            </span>
+            {% if page_obj.has_next %}
+                <a href="{% url 'blog:page' page_obj.next_page_number %}">next</a>
+            {% endif %}
+        </span>
+    </div>
+{% else %}
+	<div class="pagination">
+        <span class="page-links">
+            {% if post_list.count > 0 %}
+                <a href="{% url 'blog:page' 2 %}">next</a>
+            {% endif %}
+        </span>
+    </div>
+{% endif %}
+
+{% endblock %}

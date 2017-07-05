@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Archived posts by month</h2>
+
+{% if post_list %}
+    <div class="postlist">
+    {% for post in post_list %}
+        <div class="archive-post">
+            <div class="col-8">
+                <a class="archive-post-title" href="{% url 'blog:detail' post.id %}">{{ post.blogpost_title }}</a>
+                <div class="post-tag">
+                    Posted by {{ post.author }} on {{ post.pub_date|date:"d M Y, H:i" }} 
+                </div>
+            </div>
+        </div>
+
+    {% endfor %}
+    </div>
+    
+{% else %}
+    <p>No posts are available.</p>
+{% endif %}
+
+{% if is_paginated %}
+    <div class="pagination">
+        <span class="page-links">
+            {% if page_obj.has_previous %}
+                <a href="{% url 'blog:page' page_obj.previous_page_number %}">previous</a>
+            {% endif %}
+            <span class="page-current">
+                page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+            </span>
+            {% if page_obj.has_next %}
+                <a href="{% url 'blog:page' page_obj.next_page_number %}">next</a>
+            {% endif %}
+        </span>
+    </div>
+{% else %}
+	<div class="pagination">
+        <span class="page-links">
+            {% if post_list.count > 0 %}
+                <a href="{% url 'blog:page' 2 %}">next</a>
+            {% endif %}
+        </span>
+    </div>
+{% endif %}
+
+{% endblock %}

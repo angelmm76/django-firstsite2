@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Going to edit {{bp.blogpost_title}}</h2>
+
+{% if error_message %}
+	<p><strong>{{ error_message }}</strong></p>
+{% endif %}
+
+<form enctype="multipart/form-data" method="post">
+	{% csrf_token %}
+	
+	<label>
+		<div>edit subject</div>
+		<input type="text" name="subject" value="{{bp.blogpost_title}}">
+	</label>
+
+	<label>
+		<div>edit content</div>
+		<textarea name="content">{{bp.blogpost_content}}</textarea>
+	</label>
+	<label>
+		{% if bp.image %}
+			<img src="{{bp.image.url}}" width="225px" height="150px">
+		{% endif %}
+		<div>change image</div>
+  		<input type="file" name="image">
+  	</label>
+	<div class="error">{{error_message}}</div>
+
+	<input type="submit" value="send edited post">
+</form>
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Blog Login</h2>
+
+<form method="post" action="{% url 'blog:login_view' %}">
+	{% csrf_token %}
+	<table>
+		<tr>
+		    <td>User:</td>
+			<td><input type="text" name="username" value="{{username}}"></td>
+		</tr>
+		<tr>
+		    <td>Password:</td>
+			<td><input type="password" name="password" ></td>
+		</tr>
+		<tr>
+			{{ error }}
+		</tr>
+	</table>
+
+	<input type="submit" value="login" />
+	<input type="hidden" name="next" value="{{ next }}" />
+
+</form>
+
+{% endblock %}

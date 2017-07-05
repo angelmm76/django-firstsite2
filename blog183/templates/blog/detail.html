@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="detail-post">
+	<div class="post-title">{{ blogpost.blogpost_title }}</div>
+	<div class="post-content">{{ blogpost.blogpost_content }}</div>
+	{% if blogpost.image %}
+		<a href="{{blogpost.image.url}}">
+			<img src="{{blogpost.image.url}}" max-height="300px">
+		</a>
+	{% endif %}
+	<div class="post-tag">
+		Posted by {{ blogpost.author }} on {{ blogpost.pub_date|date:"d-m-Y, H:i" }}
+	</div>
+	<div class="post-likes">Likes: {{ blogpost.likes }}</div>
+
+	<div class="actions">
+		<a class="pdf-link" href="{% url 'blog:pdf' blogpost.id %}">PDF</a>
+		<a class="edit-link" href="{% url 'blog:edit' blogpost.id %}">Edit</a>
+		<a class="comment-link" href="{% url 'blog:comment' blogpost.id %}">Comment</a>
+	</div>
+	<hr>
+	<div class="comments">
+		{{ comments_list.count}} comment{{comments_list.count|pluralize }}
+		{% for co in comments_list %}
+			<div class="comment-content">{{co.comment_content}}</div>
+			<div class="comment-tag">By {{co.user}} ({{co.created}})</div>
+			<hr>
+		{% endfor %}
+	</div>
+</div>
+
+{% endblock %}

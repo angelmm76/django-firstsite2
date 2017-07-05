@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Going to create a new post</h2>
+
+{% if error_message %}
+	<p><strong>{{ error_message }}</strong></p>
+{% endif %}
+
+<form enctype="multipart/form-data" method="post">
+	{% csrf_token %}
+	
+	<label>
+		<div>subject</div>
+		<input type="text" name="subject" value="{{subject}}">
+	</label>
+
+	<label>
+		<div>content</div>
+		<textarea name="content">{{content}}</textarea>
+	</label>
+	<label>
+		<div>image</div>
+  		<input type="file" name="image">
+  	</label>
+	<div class="error">{{error_message}}</div>
+
+	<input type="submit" value="Send Post">
+</form>
+
+{% endblock %}

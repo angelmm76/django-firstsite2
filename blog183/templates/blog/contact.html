@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Contact us</h2>
+
+{% if error_message %}
+	<p><strong>{{ error_message }}</strong></p>
+{% endif %}
+
+<form method="post">
+	{% csrf_token %}
+    <label>
+        <div>name</div>
+        <input type="text" name="name" value="{{name}}">
+    </label>
+    <label>
+        <div>email</div>
+        <input type="text" name="from_email" value="{{from_email}}">
+    </label>
+    <label>
+        <div>link</div>
+        <input type="text" name="link" value="{{link}}">
+    </label>
+    <label>
+        <div>subject</div>
+        <input type="text" name="subject" value="{{subject}}">
+    </label>
+    <label>
+        <div>message</div>
+        <textarea name="message">{{content}}</textarea>
+    </label>
+    <div class="error">{{error}}</div>
+
+    <input type="submit" value="Send">
+</form>
+
+{% endblock %}
