@@ -1,7 +1,13 @@
 from django.conf.urls import url, include
 from django.conf import settings
+from rest_framework import routers
 
 from . import views
+
+router = routers.DefaultRouter()
+router.register(r'users', views.UserViewSet)
+router.register(r'blogposts', views.BlogPostViewSet)
+router.register(r'comments', views.CommentViewSet)
 
 app_name = 'blog'
 urlpatterns = [
@@ -28,4 +34,8 @@ urlpatterns = [
          name='archive_detail'),
     # url(r'^archive/(?P<year>[0-9]+)/(?P<month>[0-9]+)/$', views.archive_detail,
     #      name='archive_detail'),
+    url(r'^api/', include(router.urls), name='api'),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^apipi/list/$', views.blogpost_list, name='apipi_list'),
+    url(r'^apipi/(?P<pk>[0-9]+)/$', views.blogpost_detail, name='apipi_detail'),
 ]

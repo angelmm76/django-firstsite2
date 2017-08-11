@@ -1,18 +1,26 @@
 from django.shortcuts import render, get_object_or_404
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.utils import timezone
 from django.core.urlresolvers import reverse
 from django.views import generic
 from django.contrib.auth import views, authenticate, login, logout
+from django.views.decorators.csrf import csrf_exempt
 
-from .models import BlogPost, Comment
+from .models import BlogPost, Comment, UserProfile
 from .forms import SignupForm, EditForm
 
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth.models import Group
+from django.contrib.auth.models import Group, User
 from django.contrib.auth.decorators import login_required
 from django.core.mail import send_mail, BadHeaderError
+
+from rest_framework.renderers import JSONRenderer
+from rest_framework.parsers import JSONParser
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+from rest_framework import viewsets
+from .serializers import UserSerializer, BlogPostSerializer, CommentSerializer
 
 from reportlab.pdfgen import canvas
 
@@ -267,3 +275,83 @@ def logout_view(request):
     logout(request)
     # Redirect to a success page.
     return HttpResponseRedirect(reverse('blog:index'))
+
+# API REST
+class UserViewSet(viewsets.ReadOnlyModelViewSet):
+    """
+    API endpoint that allows users to be viewed or edited.
+    """
+    queryset = User.objects.all().order_by('-date_joined')
+    serializer_class = UserSerializer
+
+
+class BlogPostViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows groups to be viewed or edited.
+    """
+    queryset = BlogPost.objects.all()
+    serializer_class = BlogPostSerializer
+
+class CommentViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows groups to be viewed or edited.
+    """
+    queryset = Comment.objects.all()
+    serializer_class = CommentSerializer
+
+# APIPI REST
+#@csrf_exempt
+@api_view(['GET', 'POST'])
+def blogpost_list(request):
+    """
+    List all blogposts, or create a new blogpost
+    """
+    if request.method == 'GET':
+        blogposts = BlogPost.objects.all()
+        serializer = BlogPostSerializer(blogposts, many=True)
+        return Response(serializer.data)
+        #return JsonResponse(serializer.data, safe=False)
+
+    elif request.method == 'POST':
+        # data = JSONParser().parse(request)
+        # serializer = BlogPostSerializer(data=data)
+        serializer = BlogPostSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+            #return JsonResponse(serializer.data, status=201)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        #return JsonResponse(serializer.errors, status=400)
+
+#@csrf_exempt
+@api_view(['GET', 'PUT', 'DELETE'])
+def blogpost_detail(request, pk):
+    """
+    Retrieve, update or delete a blogpost
+    """
+    try:
+        bp = BlogPost.objects.get(pk=pk)
+    except BlogPost.DoesNotExist:
+        return Response(status=status.HTTP_404_NOT_FOUND)
+        #return HttpResponse(status=404)
+
+    if request.method == 'GET':
+        serializer = BlogPostSerializer(bp)
+        return Response(serializer.data)
+        #return JsonResponse(serializer.data)
+
+    elif request.method == 'PUT':
+    #     data = JSONParser().parse(request)
+    #     serializer = BlogPostSerializer(bp, data=data)
+        serializer = BlogPostSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+            #return JsonResponse(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        #return JsonResponse(serializer.errors, status=400)
+
+    elif request.method == 'DELETE':
+        bp.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+        #return HttpResponse(status=204)

@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"au",
+				"author2"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"Bo",
+				"BlogPostSerializer"
+			],
+			[
+				"blo",
+				"blogposts"
+			],
+			[
+				"Blo",
+				"BlogPost"
+			],
+			[
+				"Blog",
+				"BlogPost"
+			],
+			[
+				"bps",
+				"blogposts"
+			],
+			[
+				"bp",
+				"bp"
+			],
+			[
+				"User",
+				"UserProfile"
+			],
+			[
 				"for",
 				"forms"
 			],
@@ -86,10 +126,6 @@
 			[
 				"pa",
 				"padding-bottom"
-			],
-			[
-				"blo",
-				"blogpost_content"
 			],
 			[
 				"blog",
@@ -267,7 +303,7 @@
 			"file": "firstsite183/settings.py",
 			"settings":
 			{
-				"buffer_size": 3717,
+				"buffer_size": 3938,
 				"line_ending": "Unix"
 			}
 		},
@@ -352,19 +388,19 @@
 			}
 		},
 		{
-			"file": "blog183/urls.py",
-			"settings":
-			{
-				"buffer_size": 1566,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "blog183/views.py",
 			"settings":
 			{
-				"buffer_size": 10785,
+				"buffer_size": 13874,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog183/urls.py",
+			"settings":
+			{
+				"buffer_size": 2069,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -406,6 +442,38 @@
 				"buffer_size": 1077,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "polls183/templates/polls/detail.html",
+			"settings":
+			{
+				"buffer_size": 482,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 2/bootstrap-portfolio.html",
+			"settings":
+			{
+				"buffer_size": 5848,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog183/serializers.py",
+			"settings":
+			{
+				"buffer_size": 1096,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog183/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 1749,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
@@ -436,6 +504,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Angel MM/Django/firstsite183/blog183/urls.py",
+		"/C/Users/Angel MM/Django/firstsite183/blog183/templates/blog/about.html",
+		"/C/Users/Angel MM/Django/firstsite183/blog183/templates/blog/comment.html",
+		"/C/Users/Angel MM/Django/firstsite183/polls183/templates/polls/detail.html",
+		"/C/Users/Angel MM/Django/firstsite183/polls183/templates/polls/index.html",
 		"/C/Users/Angel MM/Django/firstsite183/firstsite183.json",
 		"/C/Users/Angel MM/Django/firstsite183/blog183/templates/blog/detail.html",
 		"/C/Users/Angel MM/Django/firstsite183/firstsite183/views.py",
@@ -558,12 +631,7 @@
 		"/C/Users/Angel MM/Django/django-polls/setup.py",
 		"/C/Users/Angel MM/Django/mysite/polls/admin.py",
 		"/C/Users/Angel MM/Django/mysite/polls/models.py",
-		"/C/Users/Angel MM/Django/mysite/polls/static/polls/style.css",
-		"/C/Users/Angel MM/Django/mysite/polls/templates/polls/index.html",
-		"/C/Users/Angel MM/Django/mysite/polls/urls.py",
-		"/C/Users/Angel MM/Django/mysite/polls/templates/polls/detail.html",
-		"/C/Users/Angel MM/Django/mysite/polls/templates/polls/results.html",
-		"/C/Users/Angel MM/Django/mysite/polls/views.py"
+		"/C/Users/Angel MM/Django/mysite/polls/static/polls/style.css"
 	],
 	"find":
 	{
@@ -581,6 +649,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"url",
+			"404",
+			"40",
+			"kwa",
+			"question_id",
+			"pk",
 			"super(",
 			"contenttype",
 			"django.content",
@@ -713,7 +787,7 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 21,
 			"sheets":
 			[
 				{
@@ -749,15 +823,15 @@
 					"file": "firstsite183/settings.py",
 					"settings":
 					{
-						"buffer_size": 3717,
+						"buffer_size": 3938,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2562,
-								2562
+								1320,
+								1320
 							]
 						],
 						"settings":
@@ -767,7 +841,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 600.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -795,7 +869,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -812,8 +886,8 @@
 						"selection":
 						[
 							[
-								553,
-								509
+								582,
+								582
 							]
 						],
 						"settings":
@@ -866,7 +940,7 @@
 						[
 							[
 								141,
-								80
+								141
 							]
 						],
 						"settings":
@@ -929,7 +1003,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -998,8 +1072,8 @@
 						"selection":
 						[
 							[
-								808,
-								808
+								1577,
+								1577
 							]
 						],
 						"settings":
@@ -1009,7 +1083,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 62.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1044,18 +1118,18 @@
 				},
 				{
 					"buffer": 12,
-					"file": "blog183/urls.py",
+					"file": "blog183/views.py",
 					"settings":
 					{
-						"buffer_size": 1566,
+						"buffer_size": 13874,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								812,
-								812
+								11234,
+								11234
 							]
 						],
 						"settings":
@@ -1065,25 +1139,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4065.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 13,
-					"file": "blog183/views.py",
+					"file": "blog183/urls.py",
 					"settings":
 					{
-						"buffer_size": 10785,
+						"buffer_size": 2069,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2747,
-								2753
+								2069,
+								2069
 							]
 						],
 						"settings":
@@ -1093,7 +1167,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2133.0,
+						"translation.y": 2.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1233,6 +1307,116 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "polls183/templates/polls/detail.html",
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/C/Users/Angel MM/Documents/Programación/Web Development/Udacity HTML CSS/potfolio/bootstrap portfolio 2/bootstrap-portfolio.html",
+					"settings":
+					{
+						"buffer_size": 5848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "blog183/serializers.py",
+					"settings":
+					{
+						"buffer_size": 1096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								924,
+								924
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "blog183/templates/base.html",
+					"settings":
+					{
+						"buffer_size": 1749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1687,
+								1687
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
