@@ -18,7 +18,7 @@ from django.core.mail import send_mail, BadHeaderError
 from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, detail_route, list_route
 from rest_framework import viewsets
 from .serializers import UserSerializer, BlogPostSerializer, CommentSerializer
 
@@ -283,6 +283,34 @@ class UserViewSet(viewsets.ReadOnlyModelViewSet):
     """
     queryset = User.objects.all().order_by('-date_joined')
     serializer_class = UserSerializer
+
+    @detail_route()
+    def blogposts(self, request, pk=None):
+        author = self.get_object()
+        blogposts = BlogPost.objects.filter(author=author)
+
+        context = {'request': request}
+
+        blogpost_serializer = BlogPostSerializer(blogposts, many=True, context=context)
+        return Response(blogpost_serializer.data)
+
+    @detail_route(url_path='blogposts/(?P<num>[^/.]+)')
+    def blogposts2(self, request, pk=None, num=None):
+        author = self.get_object()
+        blogposts = BlogPost.objects.filter(pk=num, author=author)
+
+        context = {'request': request}
+
+        blogpost_serializer = BlogPostSerializer(blogposts, many=True, context=context)
+        return Response(blogpost_serializer.data)
+
+
+# class UserPostsViewSet(viewsets.ModelViewSet):
+#     """
+#     API endpoint that allows users to be viewed or edited.
+#     """
+#     queryset = BlogPost.objects.all().order_by('-pub_date')
+#     serializer_class = BlogPostSerializer
 
 
 class BlogPostViewSet(viewsets.ModelViewSet):

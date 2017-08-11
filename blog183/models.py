@@ -11,7 +11,7 @@ class BlogPost(models.Model):
     image = models.ImageField(blank=True, upload_to='blogimages')  # /%Y/%m/%d')
     likes = models.IntegerField(default=0)
     dislikes = models.IntegerField(default=0)
-    author = models.ForeignKey(User)
+    author = models.ForeignKey(User, related_name='blogposts')
     # author = models.ForeignKey('UserProfile')
 
     def __str__(self):
@@ -34,9 +34,9 @@ class UserProfile(models.Model):
 
 @python_2_unicode_compatible  # only if you need to support Python 2
 class Comment(models.Model):
-    blogpost = models.ForeignKey(BlogPost)
+    blogpost = models.ForeignKey(BlogPost, related_name='comments')
     # user = models.OneToOneField(User)
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User, related_name='comments')
     comment_content = models.TextField(max_length=2000)
     votes = models.IntegerField(default=0)
     created = models.DateTimeField('created')
