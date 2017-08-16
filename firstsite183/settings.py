@@ -25,7 +25,7 @@ SECRET_KEY = 'o60()^h319rhiu&leaxci8oyf5880$i@x9a1i0+@)y(7khnyxp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '10.0.2.2']
 
 # Directory where to store uploaded files 
 MEDIA_ROOT = '/Users/Angel MM/Django/firstsite183/media/'
@@ -140,7 +140,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, "static"),] # no attached to an app
 # API with pagination and only accesible to admin users
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAdminUser',
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
     ],
     'PAGE_SIZE': 10
 }

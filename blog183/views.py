@@ -284,6 +284,7 @@ class UserViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = User.objects.all().order_by('-date_joined')
     serializer_class = UserSerializer
 
+    # http://localhost:8000/blog/api/users/2/blogposts/
     @detail_route()
     def blogposts(self, request, pk=None):
         author = self.get_object()
@@ -294,15 +295,38 @@ class UserViewSet(viewsets.ReadOnlyModelViewSet):
         blogpost_serializer = BlogPostSerializer(blogposts, many=True, context=context)
         return Response(blogpost_serializer.data)
 
+    # http://localhost:8000/blog/api/users/2/blogposts/3/
     @detail_route(url_path='blogposts/(?P<num>[^/.]+)')
-    def blogposts2(self, request, pk=None, num=None):
+    def blogpost_detail(self, request, pk=None, num=None):
         author = self.get_object()
-        blogposts = BlogPost.objects.filter(pk=num, author=author)
+        blogpost = BlogPost.objects.filter(pk=num, author=author)
 
         context = {'request': request}
 
-        blogpost_serializer = BlogPostSerializer(blogposts, many=True, context=context)
+        blogpost_serializer = BlogPostSerializer(blogpost, many=True, context=context)
         return Response(blogpost_serializer.data)
+
+    # http://localhost:8000/blog/api/users/2/blogposts/3/comments/
+    @detail_route(url_path='blogposts/(?P<num>[^/.]+)/comments')
+    def blogpost_detail_comments(self, request, pk=None, num=None):
+        author = self.get_object()
+        bp = BlogPost.objects.filter(pk=num, author=author)
+        comments = Comment.objects.filter(blogpost=bp)
+        context = {'request': request}
+
+        comment_serializer = CommentSerializer(comments, many=True, context=context)
+        return Response(comment_serializer.data)
+
+    # http://localhost:8000/blog/api/users/2/blogposts/3/comments/2/
+    @detail_route(url_path='blogposts/(?P<num>[^/.]+)/comments/(?P<pkcom>[^/.]+)')
+    def blogpost_detail_comment_detail(self, request, pk=None, num=None, pkcom=None):
+        author = self.get_object()
+        bp = BlogPost.objects.filter(pk=num, author=author)
+        comment = Comment.objects.filter(pk=pkcom, blogpost=bp)
+        context = {'request': request}
+
+        comment_serializer = CommentSerializer(comment, many=True, context=context)
+        return Response(comment_serializer.data)
 
 
 # class UserPostsViewSet(viewsets.ModelViewSet):
@@ -319,6 +343,28 @@ class BlogPostViewSet(viewsets.ModelViewSet):
     """
     queryset = BlogPost.objects.all()
     serializer_class = BlogPostSerializer
+
+    # http://localhost:8000/blog/api/blogposts/3/comments/
+    @detail_route()
+    def comments(self, request, pk=None):
+        bp = self.get_object()
+        comments = Comment.objects.filter(blogpost=bp)
+
+        context = {'request': request}
+
+        comment_serializer = CommentSerializer(comments, many=True, context=context)
+        return Response(comment_serializer.data)
+
+    # http://localhost:8000/blog/api/blogposts/3/comments/2/
+    @detail_route(url_path='comments/(?P<num>[^/.]+)')
+    def comment_detail(self, request, pk=None, num=None):
+        bp = self.get_object()
+        comment = Comment.objects.filter(pk=num, blogpost=bp)
+
+        context = {'request': request}
+
+        comment_serializer = CommentSerializer(comment, many=True, context=context)
+        return Response(comment_serializer.data)
 
 class CommentViewSet(viewsets.ModelViewSet):
     """

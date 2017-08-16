@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"list",
+				"list_route"
+			],
+			[
+				"blo",
+				"blogpost"
+			],
+			[
+				"blop",
+				"blogposts"
+			],
+			[
 				"au",
 				"author2"
 			],
@@ -18,10 +30,6 @@
 			[
 				"Bo",
 				"BlogPostSerializer"
-			],
-			[
-				"blo",
-				"blogposts"
 			],
 			[
 				"Blo",
@@ -303,7 +311,7 @@
 			"file": "firstsite183/settings.py",
 			"settings":
 			{
-				"buffer_size": 3938,
+				"buffer_size": 3988,
 				"line_ending": "Unix"
 			}
 		},
@@ -375,7 +383,7 @@
 			"file": "blog183/models.py",
 			"settings":
 			{
-				"buffer_size": 1622,
+				"buffer_size": 1698,
 				"line_ending": "Unix"
 			}
 		},
@@ -391,7 +399,7 @@
 			"file": "blog183/views.py",
 			"settings":
 			{
-				"buffer_size": 13874,
+				"buffer_size": 14867,
 				"line_ending": "Unix"
 			}
 		},
@@ -463,7 +471,7 @@
 			"file": "blog183/serializers.py",
 			"settings":
 			{
-				"buffer_size": 1096,
+				"buffer_size": 1778,
 				"line_ending": "Unix"
 			}
 		},
@@ -787,7 +795,7 @@
 	"groups":
 	[
 		{
-			"selected": 21,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -823,15 +831,15 @@
 					"file": "firstsite183/settings.py",
 					"settings":
 					{
-						"buffer_size": 3938,
+						"buffer_size": 3988,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1320,
-								1320
+								3957,
+								3957
 							]
 						],
 						"settings":
@@ -841,7 +849,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 600.0,
+						"translation.y": 1577.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1065,15 +1073,15 @@
 					"file": "blog183/models.py",
 					"settings":
 					{
-						"buffer_size": 1622,
+						"buffer_size": 1698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1577,
-								1577
+								1529,
+								1529
 							]
 						],
 						"settings":
@@ -1083,7 +1091,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 62.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1121,15 +1129,15 @@
 					"file": "blog183/views.py",
 					"settings":
 					{
-						"buffer_size": 13874,
+						"buffer_size": 14867,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11234,
-								11234
+								12403,
+								12403
 							]
 						],
 						"settings":
@@ -1139,7 +1147,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4065.0,
+						"translation.y": 4151.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1156,8 +1164,8 @@
 						"selection":
 						[
 							[
-								2069,
-								2069
+								209,
+								209
 							]
 						],
 						"settings":
@@ -1370,15 +1378,15 @@
 					"file": "blog183/serializers.py",
 					"settings":
 					{
-						"buffer_size": 1096,
+						"buffer_size": 1778,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								924,
-								924
+								1192,
+								1192
 							]
 						],
 						"settings":
@@ -1388,7 +1396,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

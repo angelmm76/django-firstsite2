@@ -36,6 +36,6 @@ urlpatterns = [
     #      name='archive_detail'),
     url(r'^api/', include(router.urls), name='api'),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    url(r'^apipi/list/$', views.blogpost_list, name='apipi_list'),
-    url(r'^apipi/(?P<pk>[0-9]+)/$', views.blogpost_detail, name='apipi_detail'),
+    # url(r'^apipi/list/$', views.blogpost_list, name='apipi_list'),
+    # url(r'^apipi/(?P<pk>[0-9]+)/$', views.blogpost_detail, name='apipi_detail'),
 ]
